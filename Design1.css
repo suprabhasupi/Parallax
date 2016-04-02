@@ -1,0 +1,41 @@
+body{
+	background-image: url("image/pebble_final_view62.jpg");
+   width: 100%;
+}
+
+
+.firstpage{
+	padding-top: 5em;
+}
+
+.whitefield{
+	color: white;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+.content_firstpage{
+	color: white;
+	text-align: center;
+
+}
+
+.pull-right{
+	color: white;;
+	font-size: 1em;
+	padding: 5px;
+
+}
+
+li{
+	padding:10px;
+}
+
+.btn_firstpage{
+	border-radius:  15px;
+	opacity: 0.5;
+	border-color: red;
+	color: red;
+	font-size:15px;
+	font-weight: bold;
+}

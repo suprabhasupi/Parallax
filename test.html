@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Single Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery2.js"></script>
+    <link href="Design1.css" rel="stylesheet">
+
+
+  <script type="text/javascript" src="custom-js/velocity.min.js"></script>
+  <script type="text/javascript" src="custom-js/ScrollMagic.js"></script>  
+  <script type="text/javascript" src="custom-js/TweenMax.min.js"></script>  
+  <script type="text/javascript" src="custom-js/jquery.ScrollMagic.js"></script>
+  <script type="text/javascript" src="custom-js/animation.gsap.min.js"></script>  
+  <script type="text/javascript" src="custom-js/animation.velocity.js"></script>
+  <script type="text/javascript" src="custom-js/debug.addIndicators.js"></script>
+
+</head>
+
+<script>
+			// init controller
+			var controller = new ScrollMagic.Controller();
+		</script>
+	</section>
+	<section class="demo">
+		<div class="spacer s2"></div>
+		<div id="trigger1" class="spacer s0"></div>
+		<div id="animate1" class="box2 skin">
+			<button type="button" class="btn page1 btn_firstpage center-block btn-default">Sale by Invitation only</button>
+		</div>
+		<div class="spacer s2"></div>
+		<script>
+				// build scene
+				var scene = new ScrollMagic.Scene({
+									triggerElement: "#trigger1"
+								})
+								.setTween("#animate1", 0.5, { scale: 2.5}) // trigger a TweenMax.to tween
+								.addIndicators({name: "1 (duration: 100)"}) // add indicators (requires plugin)
+								.addTo(controller);
+		</script>
+	</section>
+
+	<style>
+	section.demo
+	{
+		padding: 4em;
+	}
+
+	
+	
+	</style>
+	
+	</html>
