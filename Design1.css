@@ -1,3 +1,7 @@
+body{
+	overflow-x: hidden;
+}
+
 .firstpage_row{
 	background-image: url("image/pebble_final_view62.jpg");
     height: 46.4em;
@@ -7,7 +11,10 @@
   background-size: cover;
 
 }
-
+.mac{
+	position: relative;
+	left: 50%;
+}
 .logo{
 	padding: 0;
 	position: relative;
@@ -77,8 +84,7 @@ li{
 
 .btn_firstpage{
 	border-radius:15px;
-	opacity: 0.5;
-	border-color: red;
+	background-color: transparent;
 	color: red;
 	font-size:15px;
 	font-weight: bold;
@@ -91,7 +97,9 @@ li{
 /*second image*/
 
 
-.secondline_heading{
+.secondline{
 
      letter-spacing: 3px;
+     position: relative;
+     left: -50%;
 }

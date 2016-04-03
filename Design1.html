@@ -62,18 +62,36 @@
 <!-- second page -->
 <div class="second_row container-fluid col-md-12">
 
-<div class="col-md-6 col-sm-12 col-xs-12">
+<div class="secondline col-md-6 col-sm-12 col-xs-12">
     <h2 class="secondline_heading col-md-10 col-md-offset-1 text-center">North East Bangalore Developments In News</h2>
 
 	<button type="button" class="btn btn_firstpage center-block btn-default">Sale by Invitation only</button>
 </div>
 
-<div class="col-md-6 col-sm-12 col-xs-12">
+<div class="mac col-md-6 col-sm-12 col-xs-12">
 
     <img src="image/iMac-trans_screen.jpg" class= "col-md-12">
 
 </div>
 
+ <script type="text/javascript">
+			var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "80%"}});
+
+						
+						// build scenes
+new ScrollMagic.Scene({triggerElement: ".second_row"})
+										.setTween(".secondline", {x: "100%"})
+										.addIndicators()
+										.addTo(controller);
+
+
+						new ScrollMagic.Scene({triggerElement: ".mac"})
+										.setTween("img", {x: "-110%"})
+										.addIndicators()
+										.addTo(controller);
+
+
+	</script>
 
 
 </div>
