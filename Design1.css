@@ -1,8 +1,43 @@
-body{
+.firstpage_row{
 	background-image: url("image/pebble_final_view62.jpg");
-   width: 100%;
+    height: 46.4em;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
+.logo{
+	padding: 0;
+	position: relative;
+	top: -4px;
+}
+
+ul li.companyname{
+	color: white;
+	font-size: 1.5em;
+	
+}
+
+.content{
+	    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.firstpage_background{
+	background-color: black;
+	height:100%;
+	position: relative;
+	opacity: .6;
+}
+
+.header_firstpage{
+	padding: 2em;
+	position: relative;
+opacity: 1;
+}
 
 .firstpage{
 	padding-top: 5em;
@@ -12,11 +47,20 @@ body{
 	color: white;
 	text-align: center;
 	font-size: 1.8em;
+	font-weight: bold;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	margin-bottom: 1.5em;
+
 }
 
 .content_firstpage{
 	color: white;
+	font-size: 1.2em;
 	text-align: center;
+	font-weight: 500;
+	letter-spacing: 2px;
+	/*word-spacing: 2px;*/
 
 }
 
@@ -32,10 +76,22 @@ li{
 }
 
 .btn_firstpage{
-	border-radius:  15px;
+	border-radius:15px;
 	opacity: 0.5;
 	border-color: red;
 	color: red;
 	font-size:15px;
 	font-weight: bold;
+	margin-top: 9em;
+}
+
+.second_row{
+	margin-top: 13.1em;
+}
+/*second image*/
+
+
+.secondline_heading{
+
+     letter-spacing: 3px;
 }
