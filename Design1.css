@@ -235,12 +235,21 @@ li{
 }
 .fifthpage_icon{
 	height: 25em;
-	margin: 2em;
+	padding: 2.5em 3.5em;
 }
-
-
-
-
+.img_caption{
+	background:black;
+}
+.img_caption{
+	    position: absolute;
+	    left: 11%;
+	    text-align: center;
+	    bottom: 10%;
+	    width: 78%;
+	    padding: 1.5em 0.5em;
+	    background: rgba(0, 0, 0, 0.64);
+	    color: white;
+}
 /*Sixth page*/
 
 .different{
