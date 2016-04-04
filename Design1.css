@@ -303,20 +303,23 @@ textarea::-webkit-input-placeholder{
 
 input[type="text"]{
 	    padding: 6px;
-    margin: 10px;
-    border-color: black;
+	    width: 100%;
+	    margin: 10px 0px;
+	    border-color: black;
 }
 
 input[type="email"]{
 	    padding: 6px;
-    margin: 10px;
-    border-color: black;
+	    width: 100%;
+	    margin: 10px 0px;
+	    border-color: black;
 }
 
 textarea[name="message"]{
 	padding: 6px;
-    margin: 10px;
-    border-color: black;
+	width: 100%;
+	border-color: black;
+	margin: 10px 0px;
 }
 .btn_seventhpage:hover {
     color: white;
@@ -324,8 +327,7 @@ textarea[name="message"]{
 }
 
 .formelement{
-	margin-left: 1.8em;
-	margin-top: 1.8em;
+	margin: 1.8em;
 }
 
 
