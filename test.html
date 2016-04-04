@@ -23,37 +23,75 @@
 
 </head>
 
-<script>
-			// init controller
-			var controller = new ScrollMagic.Controller();
-		</script>
-	</section>
-	<section class="demo">
-		<div class="spacer s2"></div>
-		<div id="trigger1" class="spacer s0"></div>
-		<div id="animate1" class="box2 skin">
-			<button type="button" class="btn page1 btn_firstpage center-block btn-default">Sale by Invitation only</button>
-		</div>
-		<div class="spacer s2"></div>
-		<script>
-				// build scene
-				var scene = new ScrollMagic.Scene({
-									triggerElement: "#trigger1"
-								})
-								.setTween("#animate1", 0.5, { scale: 2.5}) // trigger a TweenMax.to tween
-								.addIndicators({name: "1 (duration: 50)"}) // add indicators (requires plugin)
-								.addTo(controller);
-		</script>
-	</section>
+<div class="row ">
+<div class="fifth_row container-fluid col-md-12">
+	<div class="sixthpage col-md-12">
+		<span class="different"><h2>Glimpse Of Township Proposed Specs </h2></span>
+<!-- 		<button type="button" class="btn btn_fifthpage center-block btn-default">View All</button> -->
+	<div class="thirdpage_left col-md-6">
+    <div class="gallery-grid1 animated wow slideInUp animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: slideInUp;">
+	
+	<img src="image/p1.jpg" class="market icons center-block">
+	<p class="text-center"><span class="rightimage1 space">Emerging Market</span></p>
+	<div class="p-mask">
+	<p>supi</p>
+	</div>
+	</div>
 
-	<style>
-	section.demo
-	{
-		padding: 28em;
-	}
 
+<div class="gallery-grid1 animated wow slideInUp" data-wow-delay=".5s">
+							<a href="image/p2.jpg" rel="title" class="b-link-stripe b-animate-go thickbox">
+								<img src="image/p1.jpg" alt=" " class="img-responsive" />
+								<div class="p-mask">
+									<h4></h4>
+									<p>BMW</p>
+								</div>
+							</a>
+						</div>
+	<!-- <img src="image/17581-street-lamp-1920x1200-world-wallpaper.jpg" class="infrastructure icons center-block">
+	<p class="text-center"><span class="rightimage1 space">Infrastructure</span></p>
+
+	<img src="image/humid_city_road_1600x900.jpg" class="planning icons center-block">
+	<p class="text-center"><span class="rightimage1 space">Proper Planning</span></p> -->
+	</div>
 	
-	
-	</style>
-	
-	</html>
+
+    <div class="thirdpage_right col-md-6">
+	<!-- <img src="image/p2.jpg" class="investors icons center-block">
+	<p class="text-center"><span class="rightimage1 space">Investors</span></p>
+
+	<img src="image/imgp5330-cropped.jpg" class="appreciation icons center-block">
+	<p class="text-center"><span class="rightimage1 space">Appreciation </span></p>
+
+		<img src="image/paving-8.jpg" class="customer icons center-block">
+	<p class="text-center"><span class="rightimage1 space">Customer Satisfaction</span></p> -->
+	</div>
+
+<style>
+.gallery-grid1 .p-mask, .row .product .vm-product-media-container .p-mask {
+    opacity: 0;
+    visibility: hidden;
+    background: rgba(235, 111, 99, 0.74);
+    bottom: 0%;
+    position: absolute;
+    padding: 1.5em 1.5em;
+    width: 100%;
+    -webkit-transform: translate3d( 0px, 100%, 0px );
+    -moz-transform: translate3d( 0px, 100%, 0px );
+    -ms-transform: translate3d( 0px, 100%, 0px );
+    -o-transform: translate3d( 0px, 100%, 0px );
+    transform: translate3d( 0px, 100%, 0px );
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+    text-align: left;
+}
+
+</style>
+    	
+</div>
+</div>
+</div>
+
+
+</html>

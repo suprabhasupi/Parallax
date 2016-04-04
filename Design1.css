@@ -1,10 +1,39 @@
 body{
 	overflow-x: hidden;
+	font-size: 17px;
+}
+
+.change-my-color {
+    fill: green;
+}
+
+.arrow{
+	width: 1.5em;
+    transform: rotateZ(270deg);
+    /* margin-top: 24px; */
+    position: relative;
+    bottom: -2em;
+     -webkit-animation-name: blink; /* Chrome, Safari, Opera */
+    -webkit-animation: blink 2s infinite; /* Chrome, Safari, Opera */
+    animation-name: blink;
+    animation:blink 2s infinite;
+}
+
+@-webkit-keyframes blink {
+    0% {opacity:0;}
+    50% {opacity:1;}
+100% {opacity:0;}
+}
+
+@keyframes blink {
+    0% {opacity:0;}
+    50% {opacity:1;}
+100% {opacity:0;}
 }
 
 .firstpage_row{
 	background-image: url("image/pebble_final_view62.jpg");
-    height: 46.4em;
+    height: 40.4em;
      -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -75,6 +104,7 @@ opacity: 1;
 	color: white;;
 	font-size: 1em;
 	padding: 5px;
+	margin-right: 2em;
 
 }
 
@@ -82,18 +112,45 @@ li{
 	padding:10px;
 }
 
-.btn_firstpage{
+.btn_firstpage,.btn_secondpage, .btn_fifthpage{
 	border-radius:15px;
 	background-color: transparent;
-	color: red;
 	font-size:15px;
 	font-weight: bold;
+	margin-top: 6.8em;
+}
+
+.btn_firstpage{
+	color:  #13a58f;
+	border-color: #13a58f;
+	font-weight: bold;
+	border-width: 2px;
+	font-size: 1.2em;
+}
+
+.btn_firstpage:hover{
+	color: white;
+	background-color: #13a58f;
+	border-color: white;
+}
+
+.btn_secondpage{
+	color: white;
+	background-color: #13a58f;
+	position: relative;
+    top: 1.3em;
+        padding: 10px 20px
+}
+
+.btn_secondpage:hover{
+	color: white;
+	background-color:#383434;
+}
+.second_row, .fourth_row{
 	margin-top: 9em;
 }
 
-.second_row{
-	margin-top: 13.1em;
-}
+
 /*second image*/
 
 
@@ -102,4 +159,297 @@ li{
      letter-spacing: 3px;
      position: relative;
      left: -50%;
+}
+
+
+
+
+
+/*third page*/
+
+.third_row{
+	background-color: #13a58f;
+}
+
+.whyus{
+	text-align: center;
+	color: white;
+    
+
+}
+
+.icon{
+	height: 10em;
+}
+
+.whyus h2{
+	padding: 1em;}
+
+.rightimage1{
+	font-weight: bold;
+	
+}
+
+.thirdpage_left p,.thirdpage_right p {
+	margin-bottom: 4em;
+}
+
+
+/*fourth row*/
+
+#id_fourthrow{
+	background-image: url("image/CONCRETE-CONCEPT-Apt-KASIA-ORWAT-1.jpg");
+}
+.white_shadow {
+    height: 100%;
+    background: white;
+    opacity: .5;
+}
+
+
+
+/*fifth page*/
+
+.fifth_row{
+	background-color: #13a58f;
+}
+.fifthpage_icon{
+	height: 25em;
+	margin: 2em;
+}
+
+
+
+
+/*Sixth page*/
+
+.different{
+	text-align: center;
+	color: black;
+    font-weight: bold;
+
+}
+
+.different h2{
+  margin: 1.8em;
+}
+
+.icons{
+	height: 8em;
+	margin-bottom: 1em;
+}
+
+.space{
+	letter-spacing: 2px;
+	font-size: bold;
+}
+
+/*seventh page*/
+
+.seventh_box{
+	position: relative;
+}
+
+.seventhpage_row{
+	background-image: url("image/City-Night-View-random-9503757-1500-1010.jpg");
+    height: 40.4em;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.gettingintouch{
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	margin-bottom: 1.5em;
+	font-size: 2.2em;
+	margin-top: 4.8em;
+}
+
+.btn_seventhpage{
+    border-radius:22px;
+	background-color: transparent;
+	color: white;
+	font-size:1.3em;
+	margin-top: 3.8em;
+	letter-spacing: 1px;
+	padding: .6em 3.4em;
+	border-width: 4px;
+}
+
+
+
+
+/*Eighth contact page*/
+
+input::-webkit-input-placeholder{
+	color: black;
+
+}
+
+textarea::-webkit-input-placeholder{
+	color: black;
+
+}
+
+input[type="text"]{
+	    padding: 6px;
+    margin: 10px;
+    border-color: black;
+}
+
+input[type="email"]{
+	    padding: 6px;
+    margin: 10px;
+    border-color: black;
+}
+
+textarea[name="message"]{
+	padding: 6px;
+    margin: 10px;
+    border-color: black;
+}
+.btn_seventhpage:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.formelement{
+	margin-left: 1.8em;
+	margin-top: 1.8em;
+}
+
+
+.contact_menu {
+	height: 23em;
+}
+
+.contact_para{
+	letter-spacing: 2px;
+	font-size: 1.2em;
+
+
+}
+
+.eighthpage h2{
+	margin-top: 1.5em;
+	margin-bottom: .7em;
+}
+.contact_icons{
+	height: 14em;
+}
+
+.eighthpage_left{
+	background-color:  #13a58f;
+	height: 32em;
+}
+
+.eighthpage_right{
+	background-image: url("image/tumblr_mseyflC0zi1rpgpe2o1_500.jpg");
+	height: 32em;
+}
+
+.btn_send{
+	float: right;
+	color: white;
+    background: #383434;
+    border-color: black;
+    font-size: 1em;
+    letter-spacing: 1px;
+    padding: .5em 4em;
+    margin-top: .6em;
+    margin-right: 3.6em;
+}
+
+.btn_send:hover{
+	background: #383434;
+	color: white;
+}
+.phone{
+	    height: 11em;
+    position: relative;
+    top: 30px;
+}
+
+.details{
+	margin-top: 3.1em;
+}
+
+.contactus{
+	font-weight: bold;
+	font-size: 3.5em;
+}
+.information{
+	font-weight: 2.5em;
+}
+
+.info{
+	font-weight: bold;
+	font-size: 1.6em;
+}
+.eighthpage_right p{
+  word-spacing: 1px;
+    font-size: 1.3em;
+    padding: 0em 1.5em;
+
+
+}
+
+.eighthpage_right img{
+height:24.1em;
+}
+
+
+
+/*footer*/
+
+.footer{
+	background: #383434;
+}
+
+.footer_menus{
+	color: white;
+	font-size: 1.1em;
+	letter-spacing: 1px;
+}
+
+.line{
+	color: white;
+	margin: 0px 5px;
+}
+
+.menuslist{
+	text-align: center;
+
+}
+
+.text{
+	 
+    color: white;
+    font-weight: bold;
+}
+
+.footer_image{
+	position: relative;
+	right: 3em;
+	margin-bottom: 1.3em;
+	margin-top: 2.1em;
+}
+.connectsoon{
+	color: white;
+    margin-top: 1.5em;
+}
+
+.smallheader small{
+	color: white;
+
+
+}
+
+.smallheader{
+	margin-top: 6em;
+	margin-bottom: 2.5em;
 }
