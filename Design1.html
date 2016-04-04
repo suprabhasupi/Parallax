@@ -243,7 +243,7 @@
                     <img src="image/emerging_market.png" class="market icons">
                     <p><span class="rightimage1 space">Emerging Market</span></p>
                     </div>
-                    <div class="image1">
+                    <div class="image2">
                     <img src="image/infrastructure.png" class="infrastructure icons">
                     <p><span class="rightimage1 space">Infrastructure</span></p>
                     </div>
@@ -253,22 +253,47 @@
                     </div>
                 </div>
                 <div class="sixthpage_right col-md-6">
-                    <img src="image/investors.png" class="investors icons center-block">
-                    <p class="text-center"><span class="rightimage1 space">Investors</span></p>
-                    <img src="image/appreciation.png" class="appreciation icons center-block">
-                    <p class="text-center"><span class="rightimage1 space">Appreciation </span></p>
-                    <img src="image/customer_satisfaction.png" class="customer icons center-block">
-                    <p class="text-center"><span class="rightimage1 space">Customer Satisfaction</span></p>
+                    <div class ="image4">
+                        <img src="image/investors.png" class="investors icons">
+                        <p><span class="rightimage1 space">Investors</span></p>
+                    </div>
+                    
+                    <div class = "image5">
+                        <img src="image/appreciation.png" class="appreciation icons">
+                        <p><span class="rightimage1 space">Appreciation </span></p>
+                    </div>
+                    <div class="image6">
+                        <img src="image/customer_satisfaction.png" class="customer icons">
+                        <p><span class="rightimage1 space">Customer Satisfaction</span></p>
+                    </div>
                 </div>
             </div>
             <script type="text/javascript">
             var controller = new ScrollMagic.Controller({
                 globalSceneOptions: {
-                    triggerHook: "onEnter",
+                    triggerHook: 0.9,
                     duration: "80%"
                 }
             });
 
+            // build scenes
+            new ScrollMagic.Scene({
+                    triggerElement: ".sixth_row"
+                })
+                .setTween(".image4", {
+                    x: "-60%"
+                })
+                .addIndicators()
+                .addTo(controller);
+            </script>
+
+            <script type="text/javascript">
+            var controller = new ScrollMagic.Controller({
+                globalSceneOptions: {
+                    triggerHook: 0.9,
+                    duration: "80%"
+                }
+            });
 
             // build scenes
             new ScrollMagic.Scene({
@@ -284,7 +309,7 @@
             <script type="text/javascript">
             var controller = new ScrollMagic.Controller({
                 globalSceneOptions: {
-                    triggerHook: "onEnter",
+                    triggerHook: 0.6,
                     duration: "80%"
                 }
             });
@@ -301,11 +326,32 @@
                 .addTo(controller);
             </script>
 
+            <script type="text/javascript">
+            var controller = new ScrollMagic.Controller({
+                globalSceneOptions: {
+                    triggerHook: 0.6,
+                    duration: "80%"
+                }
+            });
+
+
+            // build scenes
+            new ScrollMagic.Scene({
+                    triggerElement: ".sixth_row"
+                })
+                .setTween(".image5", {
+                    x: "-30%"
+                })
+                .addIndicators()
+                .addTo(controller);
+            </script>
+
+
 
             <script type="text/javascript">
             var controller = new ScrollMagic.Controller({
                 globalSceneOptions: {
-                    triggerHook: "onEnter",
+                    triggerHook: 0.3,
                     duration: "80%"
                 }
             });
@@ -321,6 +367,26 @@
                 .addIndicators()
                 .addTo(controller);
             </script>
+
+            <script type="text/javascript">
+            var controller = new ScrollMagic.Controller({
+                globalSceneOptions: {
+                    triggerHook: 0.3,
+                    duration: "80%"
+                }
+            });
+
+
+            // build scenes
+            new ScrollMagic.Scene({
+                    triggerElement: ".sixth_row"
+                })
+                .setTween(".image6", {
+                    x: "-30%"
+                })
+                .addIndicators()
+                .addTo(controller);
+            </script>            
         </div>
     </div>
     <!-- seventh page -->

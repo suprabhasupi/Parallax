@@ -250,6 +250,12 @@ li{
 	    background: rgba(0, 0, 0, 0.64);
 	    color: white;
 }
+.btn_fifthpage{
+	margin-top: 3em;
+}
+.heading_township h2{
+	text-align: center;
+}
 /*Sixth page*/
 
 .different{
@@ -310,6 +316,18 @@ li{
 }
 
 
+.image4{
+	position: relative;
+	left: 80%;
+}
+.image5 {
+    position: relative;
+    left: 50%;
+}
+.image6 {
+    position: relative;
+    left: 50%;
+}
 
 
 /*Eighth contact page*/
