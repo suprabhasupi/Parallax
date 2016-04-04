@@ -205,13 +205,16 @@ li{
 
 #id_fourthrow{
 	background-image: url("image/CONCRETE-CONCEPT-Apt-KASIA-ORWAT-1.jpg");
+	position: relative;
 }
 .white_shadow {
     /* height: 100%; */
     background: white;
     opacity: .5;
 }
-
+.taklu{
+    position: absolute;
+    top: 0px;}
 
 
 /*fifth page*/
@@ -465,8 +468,8 @@ height:24.1em;
 .white_shadow{
 	background: white;
 	opacity: .7;
-	/* position: relative; */
-	height: 100%;
+	position: relative;
+	height: 40em;
 }
 .para_map{
 	position: absolute;
