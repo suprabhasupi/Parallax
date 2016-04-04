@@ -1,6 +1,8 @@
 body{
 	overflow-x: hidden;
 	font-size: 17px;
+	/*font-family:Lucida Console;*/
+
 }
 
 .change-my-color {
@@ -191,6 +193,10 @@ li{
 }
 
 .thirdpage_left p,.thirdpage_right p {
+	margin-bottom: 4em;
+}
+
+.sixthpage_left p,.sixthpage_right p{
 	margin-bottom: 4em;
 }
 
