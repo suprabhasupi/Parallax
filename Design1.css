@@ -475,7 +475,17 @@ height:24.1em;
 	margin-top: 6em;
 	margin-bottom: 2.5em;
 }
-<<<<<<< HEAD
+.white_shadow{
+	background: white;
+	opacity: .7;
+	/* position: relative; */
+	height: 100%;
+}
+.para_map{
+	position: absolute;
+	top: 0;
+}
+
 
 
 
@@ -505,15 +515,5 @@ height:24.1em;
 
 
 	}
-=======
-.white_shadow{
-	background: white;
-	opacity: .7;
-	/* position: relative; */
-	height: 100%;
-}
-.para_map{
-	position: absolute;
-	top: 0;
-}
->>>>>>> 88514feb4705dcc827a9ad28136e883f0cdee452
+
+
