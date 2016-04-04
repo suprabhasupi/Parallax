@@ -78,7 +78,13 @@ opacity: 1;
 }
 
 .firstpage{
-	padding-top: 5em;
+	padding-top: 2.6em;
+}
+
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
 }
 
 .whitefield{
@@ -103,11 +109,18 @@ opacity: 1;
 }
 
 .pull-right{
-	color: white;;
+	color: white;
 	font-size: 1em;
 	padding: 5px;
-	margin-right: 2em;
+	margin-right: 1em;
+    position: relative;
+    bottom: 2.5em;
 
+}
+
+.nav>li>a{
+	color: white;
+	font-size: 1em;
 }
 
 li{
@@ -475,3 +488,29 @@ height:24.1em;
 	position: absolute;
 	top: 0;
 }
+
+@media only screen and (max-width: 500px) {
+  .btn_firstpage{
+  	position: relative;
+    bottom: 16em;
+  }
+
+   img s.arrow{
+  	position: relative;
+  	border-bottom: 18em;
+  }
+ .mac img{
+ 	position: relative;
+    bottom: 8em;
+    left: -15em;
+ }
+
+ .pull-right
+ {
+ 	position: relative;
+    bottom: 5.5em;
+    left: 2.5em;
+ }
+
+
+	}
