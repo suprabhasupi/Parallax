@@ -18,14 +18,11 @@ body {
 
 .arrow {
     width: 1.5em;
-    transform: rotateZ(270deg);
     /* margin-top: 24px; */
     position: relative;
     bottom: -2em;
-    -webkit-animation-name: blink;
-    /* Chrome, Safari, Opera */
-    -webkit-animation: blink 2s infinite;
-    /* Chrome, Safari, Opera */
+    -webkit-animation-name: blink;/* Chrome, Safari, Opera */
+    -webkit-animation: blink 2s infinite;/* Chrome, Safari, Opera */
     animation-name: blink;
     animation: blink 2s infinite;
 }
@@ -674,6 +671,10 @@ textarea[name="message"] {
     .mac{
         width: 20em;
     }
+}
+.upper_arrow{
+        position: relative;
+    top: 47px;
 }
 @media only screen and (max-width: 360px) {
         .navbar-toggle {
