@@ -4,7 +4,14 @@ body {
     /*font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-
+/*bootstrap stuff*/
+.navbar-toggle .icon-bar{
+    background: white;
+}
+.navbar-toggle{
+        background: transparent;
+    border: solid 2px white;
+}
 .change-my-color {
     fill: green;
 }
@@ -620,12 +627,27 @@ textarea[name="message"] {
     position: absolute;
     top: 0;
 }
+    .navbar-toggle {
+        float: right;
+        position: relative;
+        top: -61px;
+    }
 
 @media only screen and (max-width: 500px) {
+    /*bootstrap stuff*/
+
     .btn_firstpage {
         position: relative;
         bottom: 16em;
     }
+    /*homepage*/
+    .firstpage_background {
+    height: 125%;
+}
+#navbarCollapse {
+    text-align: center;
+    width: 100%;
+}
     img s.arrow {
         position: relative;
         border-bottom: 18em;
@@ -640,8 +662,7 @@ textarea[name="message"] {
         top: 3.2em;
     }
     .pull-right {
-        position: relative;
-        bottom: 5.5em;
-        left: 2.5em;
+        left: 0;
+    width: 100%;
     }
 }
