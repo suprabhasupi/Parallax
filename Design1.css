@@ -181,14 +181,14 @@ li {
     padding-top: 9em;
 }
 .second_row{
-	position: relative;
-	z-index: 999;
+    position: relative;
+    z-index: 999;
 }
 .srow{
-	position: relative;
-	z-index: 9999;
-	height: 100%;
-	background: white;
+    position: relative;
+    z-index: 9999;
+    height: 100%;
+    background: white;
 }
 
 /*second image*/
@@ -208,43 +208,43 @@ li {
 /*third page*/
 
 .third_row{
-	background-color: #13a58f;
-	z-index: 999;
+    background-color: #13a58f;
+    z-index: 999;
 }
 
 .whyus{
-	text-align: center;
-	color: white;
+    text-align: center;
+    color: white;
     
 
 }
 
 .icon{
-	height: 10em;
+    height: 10em;
 }
 
 .whyus h2{
-	padding: 1em;}
+    padding: 1em;}
 
 .rightimage1{
-	font-weight: bold;
-	
+    font-weight: bold;
+    
 }
 
 .thirdpage_left p,.thirdpage_right p {
-	margin-bottom: 4em;
+    margin-bottom: 4em;
 }
 
 .sixthpage_left p,.sixthpage_right p{
-	margin-bottom: 4em;
+    margin-bottom: 4em;
 }
 
 
 /*fourth row*/
 
 /*#id_fourthrow{
-	background-image: url("image/CONCRETE-CONCEPT-Apt-KASIA-ORWAT-1.jpg");
-	position: relative;
+    background-image: url("image/CONCRETE-CONCEPT-Apt-KASIA-ORWAT-1.jpg");
+    position: relative;
 }
 */
 div#id_fourthrow {
@@ -252,10 +252,10 @@ div#id_fourthrow {
     height: 36.7em;
 }
 .fourth_row_background{
-	background-image: url("image/CONCRETE-CONCEPT-Apt-KASIA-ORWAT-1.jpg");
-	position: relative;
-	height: 200%;
-	opacity: .5;
+    background-image: url("image/CONCRETE-CONCEPT-Apt-KASIA-ORWAT-1.jpg");
+    position: relative;
+    height: 200%;
+    opacity: .5;
 }
 .white_shadow {
     /* height: 100%; */
@@ -271,54 +271,54 @@ div#id_fourthrow {
     left: -45%;
 }
 .taklu_para{
-	letter-spacing: 3px;
-	position: relative;
-	left: 55%;
+    letter-spacing: 3px;
+    position: relative;
+    left: 55%;
 }    
 
 
 /*fifth page*/
 
 .fifth_row{
-	background-color: #13a58f;
+    background-color: #13a58f;
 }
 .fifthpage_icon{
-	height: 25em;
-	padding: 2.5em 3.28em;
+    height: 25em;
+    padding: 2.5em 3.28em;
 }
 .secondline_heading{
-	position: relative;
-	margin-bottom: 1em;
+    position: relative;
+    margin-bottom: 1em;
 }
 
 .para{
-	position: relative;
-	left: 2em;
+    position: relative;
+    left: 2em;
 }
 .btn_fifthpage:hover{
-	color: white;
-	background-color: #383434;
+    color: white;
+    background-color: #383434;
 }
 .img_caption{
-	background:black;
-	letter-spacing: 2px;
+    background:black;
+    letter-spacing: 2px;
 }
 .img_caption{
-	    position: absolute;
-	    left: 11%;
-	    text-align: center;
-	    bottom: 10%;
-	    width: 78%;
-	    padding: 2.2em 0.5em;
-	    background: rgba(0, 0, 0, 0.64);
-	    color: white;
+        position: absolute;
+        left: 11%;
+        text-align: center;
+        bottom: 10%;
+        width: 78%;
+        padding: 2.2em 0.5em;
+        background: rgba(0, 0, 0, 0.64);
+        color: white;
 }
 .btn_fifthpage{
-	margin-top: 2em;
-	color: white;
-	background-color: #383434;
-	border-color: #383434;
-	padding: 8px 53px;
+    margin-top: 2em;
+    color: white;
+    background-color: #383434;
+    border-color: #383434;
+    padding: 8px 53px;
     position: relative;
     left: 1em;
 
@@ -326,14 +326,14 @@ div#id_fourthrow {
 
 
 .heading_township h2{
-	text-align: center;
-	color: white;
-	/*margin-top: 1em;*/
+    text-align: center;
+    color: white;
+    /*margin-top: 1em;*/
 }
 
 .g_effect_r1, .g_effect_r2, .g_effect_r3{
-	opacity: 0;
-	transform: scale(.5);
+    opacity: 0;
+    transform: scale(.7);
 }
 
 /*Sixth page*/
@@ -374,7 +374,7 @@ div#id_fourthrow {
     background: black;
 }
 .seventhpage_background{
-	    height: 200%;
+        height: 200%;
     opacity: .4;
     position: relative;
      background-image: url("image/City-Night-View-random-9503757-1500-1010.jpg");
@@ -462,7 +462,7 @@ textarea[name="message"] {
 
 /*a .btn_seventhpage:hover
 {
-	text-decoration: none;
+    text-decoration: none;
 }*/
 
 .formelement {
@@ -487,9 +487,9 @@ textarea[name="message"] {
     height: 14em;
 }
 .eighth_row {
-	position: relative;
-	background: white;
-	z-index: 9999;
+    position: relative;
+    background: white;
+    z-index: 9999;
 }
 .eighthpage_left {
     background-color: #13a58f;
@@ -503,9 +503,9 @@ textarea[name="message"] {
     position: relative;
 }
 .eighthpage_background{
-	background-image: url("image/tumblr_mseyflC0zi1rpgpe2o1_500.jpg");
-	height: 32em;
-	opacity: .4;
+    background-image: url("image/tumblr_mseyflC0zi1rpgpe2o1_500.jpg");
+    height: 32em;
+    opacity: .4;
 }
 
 .btn_send {
@@ -557,7 +557,7 @@ textarea[name="message"] {
 }
 
 .eighthpage_right img {
-    height: 22.3em;
+    height: 22.2em;
 }
 
 /*footer*/
@@ -588,7 +588,7 @@ textarea[name="message"] {
 
 .footer_image {
     position: relative;
-    right: 3em;
+    right: 2em;
     margin-bottom: 1.3em;
     margin-top: 2.1em;
 }
