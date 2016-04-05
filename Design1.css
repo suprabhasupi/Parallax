@@ -452,12 +452,7 @@ textarea[name="message"]{
 	height: 32em;
 }
 
-.eighthpage_right{
-	background-image: url("image/tumblr_mseyflC0zi1rpgpe2o1_500.jpg");
-	height: 32em;
-	padding: 0px;
-	position: relative;
-}
+.
 
 .btn_send{
 	float: right;
@@ -506,6 +501,11 @@ textarea[name="message"]{
 
 .eighthpage_right img{
 height:24.1em;
+}
+.eighthpage_background {
+    background-image: url("image/tumblr_mseyflC0zi1rpgpe2o1_500.jpg");
+    height: 32em;
+    opacity: .4;
 }
 
 
