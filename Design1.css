@@ -638,15 +638,17 @@ textarea[name="message"] {
 
     .btn_firstpage {
         position: relative;
-        bottom: 16em;
     }
     /*homepage*/
+    body {
+    overflow-x: hidden;}
     .firstpage_background {
     height: 125%;
 }
 #navbarCollapse {
     text-align: center;
     width: 100%;
+    padding: 0;
 }
     img s.arrow {
         position: relative;
@@ -663,6 +665,22 @@ textarea[name="message"] {
     }
     .pull-right {
         left: 0;
-    width: 100%;
+        width: 100%;
+        margin: 0;
     }
+    .firstpage, .seventhpage{
+        padding:0px;
+    }
+    .mac{
+        width: 20em;
+    }
+}
+@media only screen and (max-width: 360px) {
+        .navbar-toggle {
+    top: 0;
+    left: -40%;
+    position: relative;
+    margin: 0;
+    }
+
 }
