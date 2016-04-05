@@ -136,12 +136,16 @@
                 </div>        
                 </div>
                 <div class="thirdpage_right col-md-6">
+                <div class="thirdpage_right1">
                     <img src="image/company_256.png" class="company icon center-block">
                     <p class="text-center"><span class="rightimage1">World Class Product</span>
                         <br>Set it to believe</p>
+                 </div>
+                 <div class="thirdpage_right2">      
                     <img src="image/thumbs_up.png" class="thumbsup icon center-block">
                     <p class="text-center"><span class="rightimage1">Popularity </span>
                         <br>Well appreciated by all</p>
+                        </div>
                 </div>
             </div>
 
@@ -185,18 +189,18 @@
      <script type="text/javascript">
             var controller = new ScrollMagic.Controller({
                 globalSceneOptions: {
-                    triggerHook: 0.6,
-                    duration: "80%"
+                    triggerHook: 0.8,
+                    duration: "100%"
                 }
             });
 
 
             // build scenes
             new ScrollMagic.Scene({
-                    triggerElement: ".sixth_row"
+                    triggerElement: ".third_row"
                 })
-                .setTween(".image5", {
-                    x: "-30%"
+                .setTween(".thirdpage_right1", {
+                    x: "-10%"
                 })
                 .addIndicators()
                 .addTo(controller);
