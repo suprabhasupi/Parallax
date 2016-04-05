@@ -23,8 +23,8 @@
 <body class="container-fluid ">
     <div class="row firstpage_row">
         <!-- Menu -->
-        <div class="firstpage_background"></div>
-        <div class="content">
+        <div class = "firstpage_background"></div>
+        <div class="content"> 
             <div class="header_firstpage">
                 <div class="pull-left">
                     <ul class="nav navbar-nav navbar-right">
@@ -60,25 +60,25 @@
             <script type="text/javascript">
             var controller = new ScrollMagic.Controller({
                 globalSceneOptions: {
-                    triggerHook: "onEnter",
+                    triggerHook: "onLeave",
                     duration: "100%"
                 }
             });
-
-
             new ScrollMagic.Scene({
-                    triggerElement: ".home-pageset"
+                    triggerElement: ".mainheader"
                 })
-                .setTween(".firstpage_one", {
-                    y: "-100%"
+                .setTween(".firstpage_background", {
+                    y: "-50%"
                 })
                 .addIndicators()
                 .addTo(controller);
+        
             </script>
         </div>
     </div>
+
     <!-- second page -->
-    <div id="id_srow">
+    <div class = "srow row">
         <div class="second_row container-fluid col-md-12">
             <div class="secondline col-md-6 col-sm-12 col-xs-12">
                 <h2 class="secondline_heading col-md-10 col-md-offset-1 text-center">North East Bangalore Developments In News</h2>
@@ -505,7 +505,9 @@
     </div>
     <!-- seventh page -->
     <div class="row seventhpage_row seventh_box">
-        <div class="firstpage_background seventhpage_background"></div>
+
+        <div class = "seventhpage_background"></div>
+
         <div class="content">
             <div class="container-fluid mainheader seventhpage_main">                
                     <div id="home-pageset">
@@ -519,6 +521,7 @@
                         </div>
                     </div>
                 
+
 
          <script type="text/javascript">
             var controller = new ScrollMagic.Controller({
@@ -538,16 +541,28 @@
                 })
                 .addIndicators()
                 .addTo(controller);
-
-            // new ScrollMagic.Scene({
-            //         triggerElement: ".seventhpage_row"
-            //     })
-            //     .setTween(".seventhpage_background", {
-            //         y: "-15%"
-            //     })
-            //     .addIndicators()
-            //     .addTo(controller);
             </script>
+
+            <script type="text/javascript">
+            var controller = new ScrollMagic.Controller({
+                globalSceneOptions: {
+                    triggerHook: "onEnter",
+                    duration: "100%"
+                }
+            });
+            new ScrollMagic.Scene({
+                    triggerElement: ".seventhpage_row"
+                })
+                .setTween(".seventhpage_background", {
+                    y: "-25%"
+                })
+                .addIndicators()
+                .addTo(controller);
+        
+            </script>
+
+
+            </div>
         </div>
     </div>
     </div>
@@ -596,7 +611,7 @@
                     </form>
                 </div>
                 <div class="eighthpage_right col-md-6">
-                    <div class="white_shadow"></div>
+                    <div class="eighthpage_background"></div>
                     <div class="para_map">
                         <p class="contact_para text-center col-md-12">Our team is a group of dedicated people who are working hard around the table and the clock to make our customer happy.You are always welcome to our office to have a coffee and a chat.</p>
                         <img src="image/map.jpg" class="center-block">
