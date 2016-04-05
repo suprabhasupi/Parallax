@@ -137,13 +137,13 @@
                 </div>
                 <div class="thirdpage_right col-md-6">
                 <div class="thirdpage_right1">
-                    <img src="image/company_256.png" class="company icon center-block">
-                    <p class="text-center"><span class="rightimage1">World Class Product</span>
+                    <img src="image/company_256.png" class="company icon">
+                    <p><span class="rightimage1">World Class Product</span>
                         <br>Set it to believe</p>
                  </div>
                  <div class="thirdpage_right2">      
-                    <img src="image/thumbs_up.png" class="thumbsup icon center-block">
-                    <p class="text-center"><span class="rightimage1">Popularity </span>
+                    <img src="image/thumbs_up.png" class="thumbsup icon">
+                    <p><span class="rightimage1">Popularity </span>
                         <br>Well appreciated by all</p>
                         </div>
                 </div>
@@ -189,8 +189,8 @@
      <script type="text/javascript">
             var controller = new ScrollMagic.Controller({
                 globalSceneOptions: {
-                    triggerHook: 0.8,
-                    duration: "100%"
+                    triggerHook: 0.6,
+                    duration: "80%"
                 }
             });
 
@@ -200,7 +200,27 @@
                     triggerElement: ".third_row"
                 })
                 .setTween(".thirdpage_right1", {
-                    x: "-10%"
+                    x: "30%"
+                })
+                .addIndicators()
+                .addTo(controller);
+            </script>
+
+            <script type="text/javascript">
+            var controller = new ScrollMagic.Controller({
+                globalSceneOptions: {
+                    triggerHook: 0.6,
+                    duration: "-80%"
+                }
+            });
+
+
+            // build scenes
+            new ScrollMagic.Scene({
+                    triggerElement: ".thirdpage_right1"
+                })
+                .setTween(".thirdpage_right2", {
+                    x: "30%"
                 })
                 .addIndicators()
                 .addTo(controller);
