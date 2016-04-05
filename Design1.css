@@ -182,6 +182,7 @@ li{
 
 .third_row{
 	background-color: #13a58f;
+	z-index: 999;
 }
 
 .whyus{
@@ -214,9 +215,20 @@ li{
 
 /*fourth row*/
 
-#id_fourthrow{
+/*#id_fourthrow{
 	background-image: url("image/CONCRETE-CONCEPT-Apt-KASIA-ORWAT-1.jpg");
 	position: relative;
+}
+*/
+div#id_fourthrow {
+    position: relative;
+    height: 36.7em;
+}
+.fourth_row_background{
+	background-image: url("image/CONCRETE-CONCEPT-Apt-KASIA-ORWAT-1.jpg");
+	position: relative;
+	height: 200%;
+	opacity: .5;
 }
 .white_shadow {
     /* height: 100%; */
@@ -225,7 +237,8 @@ li{
 }
 .taklu{
     position: absolute;
-    top: 0px;}
+    top: 0px;
+    }
 .taklu_man {
     position: relative;
     left: -45%;
@@ -549,8 +562,10 @@ height:24.1em;
 .white_shadow{
 	background: white;
 	opacity: .7;
-	position: relative;
-	height: 36.7em
+	position: absolute;
+	height: 36.7em;
+	top: 0;
+	z-index: 999;
 }
 .para_map{
 	position: absolute;

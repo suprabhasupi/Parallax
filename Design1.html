@@ -144,7 +144,7 @@
     </div>
     <!-- fourth page -->
     <div id="id_fourthrow" class="row">
-        <div class="white_shadow"></div>
+        <div class= "fourth_row_background"></div>
         <div class="fourth_row taklu container-fluid col-md-12">
             <div class="taklu_man col-md-6 col-sm-12 col-xs-12">
                 <img src="image/man.png" class=" macimg col-md-12">
@@ -170,6 +170,15 @@
                 })
                 .setTween(".taklu_man", {
                     x: "100%"
+                })
+                .addIndicators()
+                .addTo(controller);
+
+            new ScrollMagic.Scene({
+                    triggerElement: ".fourth_row"
+                })
+                .setTween(".fourth_row_background", {
+                    y: "-15%"
                 })
                 .addIndicators()
                 .addTo(controller);
