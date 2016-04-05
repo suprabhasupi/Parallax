@@ -182,7 +182,25 @@
                 .addIndicators()
                 .addTo(controller);
             </script>
+     <script type="text/javascript">
+            var controller = new ScrollMagic.Controller({
+                globalSceneOptions: {
+                    triggerHook: 0.6,
+                    duration: "80%"
+                }
+            });
 
+
+            // build scenes
+            new ScrollMagic.Scene({
+                    triggerElement: ".sixth_row"
+                })
+                .setTween(".image5", {
+                    x: "-30%"
+                })
+                .addIndicators()
+                .addTo(controller);
+            </script>
 
         </div>
     </div>
@@ -239,6 +257,10 @@
                 .addIndicators()
                 .addTo(controller);
             </script>
+
+
+
+
         </div>
     </div>
 
@@ -303,7 +325,7 @@
                 .addIndicators()
                 .addTo(controller);
             </script>
-
+            
 </div>
 </div>
 
