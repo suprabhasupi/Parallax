@@ -422,6 +422,7 @@
     </div>
     <!-- seventh page -->
     <div class="row seventhpage_row seventh_box">
+        <div class = "seventhpage_background"></div>
         <div class="content">
             <div class="container-fluid mainheader seventhpage_main">
                 <div class="firstpage col-md-12 col-sm-12 col-xs-12">
@@ -437,25 +438,23 @@
                     </div>
                 </div>
 
-          <script type="text/javascript">
+            <script type="text/javascript">
             var controller = new ScrollMagic.Controller({
                 globalSceneOptions: {
-                    triggerHook: "0.3",
-                    duration: "150%"
+                    triggerHook: "onEnter",
+                    duration: "100%"
                 }
             });
-
-
             new ScrollMagic.Scene({
                     triggerElement: ".seventhpage_row"
                 })
-                .setTween(".seventhpage", {
-                    y: "10%"
+                .setTween(".seventhpage_background", {
+                    y: "-25%"
                 })
                 .addIndicators()
                 .addTo(controller);
+        
             </script>
-
 
 
             </div>
@@ -505,7 +504,7 @@
                     </form>
                 </div>
                 <div class="eighthpage_right col-md-6">
-                    <div class="white_shadow"></div>
+                    <div class="eighthpage_background"></div>
                     <div class="para_map">
                         <p class="contact_para text-center col-md-12">Our team is a group of dedicated people who are working hard around the table and the clock to make our customer happy.You are always welcome to our office to have a coffee and a chat.</p>
                         <img src="image/map.jpg" class="center-block">

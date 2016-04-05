@@ -358,7 +358,11 @@ div#id_fourthrow {
     letter-spacing: 2px;
     font-size: bold;
 }
-
+.sixthpage.col-md-12 {
+    background: white;
+    position: relative;
+    z-index: 9999;
+}
 
 /*seventh page*/
 
@@ -366,13 +370,20 @@ div#id_fourthrow {
     position: relative;
 }
 
-.seventhpage_row {
-    background-image: url("image/City-Night-View-random-9503757-1500-1010.jpg");
+.seventhpage_row {   
     height: 40.4em;
+    background: black;
+}
+.seventhpage_background{
+	    height: 200%;
+    opacity: .4;
+    position: relative;
+     background-image: url("image/City-Night-View-random-9503757-1500-1010.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
 }
 
 .gettingintouch {
@@ -476,17 +487,26 @@ textarea[name="message"] {
 .contact_icons {
     height: 14em;
 }
-
+.eighth_row {
+	position: relative;
+	background: white;
+	z-index: 9999;
+}
 .eighthpage_left {
     background-color: #13a58f;
     height: 32em;
 }
 
 .eighthpage_right {
-    background-image: url("image/tumblr_mseyflC0zi1rpgpe2o1_500.jpg");
+    
     height: 32em;
     padding: 0px;
     position: relative;
+}
+.eighthpage_background{
+	background-image: url("image/tumblr_mseyflC0zi1rpgpe2o1_500.jpg");
+	height: 32em;
+	opacity: .4;
 }
 
 .btn_send {
@@ -538,7 +558,7 @@ textarea[name="message"] {
 }
 
 .eighthpage_right img {
-    height: 24.1em;
+    height: 22.3em;
 }
 
 
