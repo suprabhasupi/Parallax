@@ -347,9 +347,9 @@ div#id_fourthrow {
 	text-align: center;
 	letter-spacing: 2px;
 	word-spacing: 3px;
-	margin-bottom: 1.5em;
+	/*margin-bottom: 1.5em;*/
 	font-size: 2.2em;
-	margin-top: 4.8em;
+	/*margin-top: 4.8em;*/
 }
 
 .btn_seventhpage{
@@ -520,6 +520,11 @@ height:24.1em;
 	color: white;
 	font-size: 1.1em;
 	letter-spacing: 1px;
+}
+
+.footer_menus:hover{
+    color: #13a58f;
+    text-decoration: none;
 }
 
 .line{
