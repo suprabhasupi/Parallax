@@ -50,11 +50,12 @@ body {
 .firstpage_row {
     position: relative;
     height: 40.4em;
+    background: black;
 }
 
 .firstpage_background {
-    background-color: black;
     height: 200%;
+    opacity: .4;
     position: relative;
     background-image: url("image/pebble_final_view62.jpg");
     -webkit-background-size: cover;
@@ -177,10 +178,18 @@ li {
 
 .second_row,
 .fourth_row {
-    margin-top: 9em;
+    padding-top: 9em;
 }
-
-
+.second_row{
+	position: relative;
+	z-index: 999;
+}
+.srow{
+	position: relative;
+	z-index: 9999;
+	height: 100%;
+	background: white;
+}
 /*second image*/
 
 .secondline {
