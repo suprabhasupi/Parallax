@@ -12,6 +12,9 @@ body {
         background: transparent;
     border: solid 2px white;
 }
+.nav>li>a{
+    padding: 0;
+}
 .change-my-color {
     fill: green;
 }
@@ -135,10 +138,12 @@ ul li.companyname {
 }
 
 .nav>li>a {
-    color: white;
+    color: #D8D5D5;
     font-size: 1em;
 }
-
+.nav>li>a:hover{
+    color:white;
+}
 li {
     padding: 10px;
 }
