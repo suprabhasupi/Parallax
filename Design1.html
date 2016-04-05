@@ -146,10 +146,10 @@
     <div id="id_fourthrow" class="row">
         <div class="white_shadow"></div>
         <div class="fourth_row taklu container-fluid col-md-12">
-            <div class="mac col-md-6 col-sm-12 col-xs-12">
+            <div class="taklu_man col-md-6 col-sm-12 col-xs-12">
                 <img src="image/man.png" class=" macimg col-md-12">
             </div>
-            <div class="secondline col-md-6 col-sm-12 col-xs-12">
+            <div class="taklu_para col-md-6 col-sm-12 col-xs-12">
             <div class="para">
                 <h2 class="secondline_heading col-md-8 text-center">What Do We Offer?</h2>
                 <p class="col-md-8">BLISS has a new meaning - New White Field Township, at Hoskote. Enjoy your eco- friendly living in Tranquility and Peace.A township of high standards, residences comprimising of villas and row houses, limited plots, commercial space and nature friendly amenities are at your doorstep. An Ashram, animal adaptation center, lake side club house and a designated sports center makes up your complete dream family lifestyle. So, let us build your community in BLISS.</p>
@@ -166,9 +166,9 @@
 
             // build scenes
             new ScrollMagic.Scene({
-                    triggerElement: ".second_row"
+                    triggerElement: ".fourth_row"
                 })
-                .setTween(".secondline", {
+                .setTween(".taklu_man", {
                     x: "100%"
                 })
                 .addIndicators()
@@ -176,9 +176,9 @@
 
 
             new ScrollMagic.Scene({
-                    triggerElement: "#id_fourthrow"
+                    triggerElement: ".fourth_row"
                 })
-                .setTween(".bliss", {
+                .setTween(".taklu_para", {
                     x: "-110%"
                 })
                 .addIndicators()

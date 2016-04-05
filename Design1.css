@@ -226,6 +226,15 @@ li{
 .taklu{
     position: absolute;
     top: 0px;}
+.taklu_man {
+    position: relative;
+    left: -50%;
+}
+.taklu_para{
+	letter-spacing: 3px;
+    position: relative;
+    left: 50%;
+}    
 
 
 /*fifth page*/
