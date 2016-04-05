@@ -288,7 +288,6 @@ div#id_fourthrow {
 }
 .secondline_heading{
 	position: relative;
-	right: 1em;
 	margin-bottom: 1em;
 }
 
@@ -331,75 +330,88 @@ div#id_fourthrow {
 	color: white;
 	/*margin-top: 1em;*/
 }
+
+
 /*Sixth page*/
 
-.different{
-	text-align: center;
-	color: black;
+.different {
+    text-align: center;
+    color: black;
     font-weight: bold;
-
 }
 
-.different h2{
-  margin: 1.8em;
+.different h2 {
+    margin: 1.8em;
 }
 
-.icons{
-	height: 8em;
-	margin-bottom: 1em;
+.icons {
+    height: 8em;
+    margin-bottom: 1em;
 }
 
-.space{
-	letter-spacing: 2px;
-	font-size: bold;
+.space {
+    letter-spacing: 2px;
+    font-size: bold;
+}
+.sixthpage.col-md-12 {
+    background: white;
+    position: relative;
+    z-index: 9999;
 }
 
 /*seventh page*/
 
-.seventh_box{
-	position: relative;
+.seventh_box {
+    position: relative;
 }
 
-.seventhpage_row{
-	background-image: url("image/City-Night-View-random-9503757-1500-1010.jpg");
+.seventhpage_row {   
     height: 40.4em;
-     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: black;
 }
-
-.gettingintouch{
-	color: white;
-	text-align: center;
-	letter-spacing: 2px;
-	word-spacing: 3px;
-	/*margin-bottom: 1.5em;*/
-	font-size: 2.2em;
-	/*margin-top: 4.8em;*/
-}
-
-.btn_seventhpage{
-    border-radius:22px;
-	background-color: transparent;
-	color: white;
-	font-size:1.3em;
-	margin-top: 3.8em;
-	letter-spacing: 1px;
-	padding: .6em 3.4em;
-	border-width: 4px;
+.seventhpage_background{
+	    height: 200%;
+    opacity: .4;
+    position: relative;
+     background-image: url("image/City-Night-View-random-9503757-1500-1010.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
-
-.image4{
-	position: relative;
-	left: 80%;
+.gettingintouch {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    margin-bottom: 1.5em;
+    font-size: 2.2em;
+    margin-top: 4.8em;
 }
+
+.btn_seventhpage {
+    border-radius: 22px;
+    background-color: transparent;
+    color: white;
+    font-size: 1.3em;
+    margin-top: 3.8em;
+    letter-spacing: 1px;
+    padding: .6em 3.4em;
+    border-width: 4px;
+}
+
+.image4 {
+    position: relative;
+    left: 80%;
+}
+
 .image5 {
     position: relative;
     left: 50%;
 }
+
 .image6 {
     position: relative;
     left: 50%;
@@ -408,82 +420,93 @@ div#id_fourthrow {
 
 /*Eighth contact page*/
 
-input::-webkit-input-placeholder{
-	color: black;
-
+input::-webkit-input-placeholder {
+    color: black;
 }
 
-textarea::-webkit-input-placeholder{
-	color: black;
-
+textarea::-webkit-input-placeholder {
+    color: black;
 }
 
-input[type="text"]{
-	    padding: 6px;
-	    width: 100%;
-	    margin: 10px 0px;
-	    border-color: black;
+input[type="text"] {
+    padding: 6px;
+    width: 100%;
+    margin: 10px 0px;
+    border-color: black;
 }
 
-input[type="email"]{
-	    padding: 6px;
-	    width: 100%;
-	    margin: 10px 0px;
-	    border-color: black;
+input[type="email"] {
+    padding: 6px;
+    width: 100%;
+    margin: 10px 0px;
+    border-color: black;
 }
 
-textarea[name="message"]{
-	padding: 6px;
-	width: 100%;
-	border-color: black;
-	margin: 10px 0px;
+textarea[name="message"] {
+    padding: 6px;
+    width: 100%;
+    border-color: black;
+    border-width: 2px;
+    margin: 10px 0px;
 }
+
 .btn_seventhpage:hover {
     color: white;
     background-color: transparent;
 }
+
 
 /*a .btn_seventhpage:hover
 {
 	text-decoration: none;
 }*/
 
-
-
-.formelement{
-	margin: 1.8em;
+.formelement {
+    margin: 1.8em;
 }
-
 
 .contact_menu {
-	height: 23em;
+    height: 23em;
 }
 
-.contact_para{
-	letter-spacing: 2px;
-	font-size: 1.2em;
-
-
+.contact_para {
+    letter-spacing: 2px;
+    font-size: 1.2em;
 }
 
-.eighthpage h2{
-	margin-top: 1.5em;
-	margin-bottom: .7em;
-}
-.contact_icons{
-	height: 14em;
+.eighthpage h2 {
+    margin-top: 1.5em;
+    margin-bottom: .7em;
 }
 
-.eighthpage_left{
-	background-color:  #13a58f;
+.contact_icons {
+    height: 14em;
+}
+.eighth_row {
+	position: relative;
+	background: white;
+	z-index: 9999;
+}
+.eighthpage_left {
+    background-color: #13a58f;
+    height: 32em;
+}
+
+.eighthpage_right {
+    
+    height: 32em;
+    padding: 0px;
+    position: relative;
+}
+.eighthpage_background{
+	background-image: url("image/tumblr_mseyflC0zi1rpgpe2o1_500.jpg");
 	height: 32em;
+	opacity: .4;
 }
 
-.
-
-.btn_send{
-	float: right;
-	color: white;
+.btn_send {
+    float: right;
+    color: white;
     background: #383434;
     border-color: black;
     font-size: 1em;
@@ -493,48 +516,45 @@ textarea[name="message"]{
     margin-right: 1.8em;
 }
 
-.btn_send:hover{
-	background: #383434;
-	color: white;
+.btn_send:hover {
+    background: #383434;
+    color: white;
 }
-.phone{
-	    height: 11em;
+
+.phone {
+    height: 11em;
     position: relative;
     top: 30px;
 }
 
-.details{
-	margin-top: 3.1em;
+.details {
+    margin-top: 3.1em;
 }
 
-.contactus{
-	font-weight: bold;
-	font-size: 3.5em;
-}
-.information{
-	font-weight: 2.5em;
+.contactus {
+    font-weight: bold;
+    font-size: 3.5em;
 }
 
-.info{
-	font-weight: bold;
-	font-size: 1.6em;
-}
-.eighthpage_right p{
-  word-spacing: 1px;
-  font-size: 1.3em;
-  padding: 0em 3.5em;
-  text-align: left;
+.information {
+    font-weight: 2.5em;
 }
 
-.eighthpage_right img{
-height:24.1em;
-}
-.eighthpage_background {
-    background-image: url("image/tumblr_mseyflC0zi1rpgpe2o1_500.jpg");
-    height: 32em;
-    opacity: .4;
+.info {
+    font-weight: bold;
+    font-size: 1.6em;
 }
 
+.eighthpage_right p {
+    word-spacing: 1px;
+    font-size: 1.3em;
+    padding: 0em 3.5em;
+    text-align: left;
+}
+
+.eighthpage_right img {
+    height: 22.3em;
+}
 
 /*footer*/
 
