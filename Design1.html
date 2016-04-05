@@ -299,38 +299,36 @@
 
 		<button type="button" class="btn btn_fifthpage center-block btn-default">View All</button>
 
-	<div class ="g_effect_r1">
-	<div class = "col-md-6">
+	
+	<div class = "col-md-6 g_effect_r1">
 	<img src="image/p1.jpg" class="pic1 fifthpage_icon col-md-12">
 	<span class="col-md-12 img_caption">Specification</span>
 	</div>
-    <div class = "col-md-6">
+    <div class = "col-md-6 g_effect_r1">
     <img src="image/17581-street-lamp-1920x1200-world-wallpaper.jpg" class="pic1 fifthpage_icon col-md-12">
     <span class="col-md-12 img_caption">Street Lamp</span>
     </div>    
-    </div>
+    
 
-    <div class ="g_effect_r2">
-    <div class = "col-md-6">
+    
+    <div class = "col-md-6 g_effect_r2">
     <img src="image/humid_city_road_1600x900.jpg" class="pic1 fifthpage_icon col-md-12">
     <span class="col-md-12 img_caption">Road</span>
     </div>    
-    <div class = "col-md-6">
+    <div class = "col-md-6 g_effect_r2">
     <img src="image/p2.jpg" class="pic1 fifthpage_icon col-md-12">
     <span class="col-md-12 img_caption">Entrance</span>
-    </div>    
     </div>
 
-    <div class ="g_effect_r3">
-    <div class = "col-md-6">
+
+    <div class = "col-md-6 g_effect_r3">
     <img src="image/imgp5330-cropped.jpg" class="pic1 fifthpage_icon col-md-12">
     <span class="col-md-12 img_caption">Play Area</span>
     </div>    
-    <div class = "col-md-6">
+    <div class = "col-md-6 g_effect_r3">
     <img src="image/paving-8.jpg" class="pic1 fifthpage_icon col-md-12">
     <span class="col-md-12 img_caption">Footpath</span>
     </div>  
-    </div>
 
       <script type="text/javascript">
             var controller = new ScrollMagic.Controller({
@@ -345,7 +343,8 @@
                     triggerElement: ".g_effect_r1"
                 })
                 .setTween(".g_effect_r1", {
-                    opacity:1
+                    opacity:1,
+                    scale:1
                 })
                 .addIndicators()
                 .addTo(controller);
@@ -354,7 +353,8 @@
                     triggerElement: ".g_effect_r2"
                 })
                 .setTween(".g_effect_r2", {
-                    opacity:1
+                    opacity:1,
+                    scale:1
                 })
                 .addIndicators()
                 .addTo(controller);                
@@ -363,7 +363,8 @@
                     triggerElement: ".g_effect_r3"
                 })
                 .setTween(".g_effect_r3", {
-                    opacity:1
+                    opacity:1,
+                    scale:1
                 })
                 .addIndicators()
                 .addTo(controller);                

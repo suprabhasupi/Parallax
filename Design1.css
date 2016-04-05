@@ -333,6 +333,7 @@ div#id_fourthrow {
 
 .g_effect_r1, .g_effect_r2, .g_effect_r3{
 	opacity: 0;
+	transform: scale(.5);
 }
 
 /*Sixth page*/
