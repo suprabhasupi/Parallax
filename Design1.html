@@ -23,8 +23,8 @@
 <body class="container-fluid ">
     <div class="row firstpage_row">
         <!-- Menu -->
-        <div class="firstpage_background"></div>
-        <div class="content">
+        <div class = "firstpage_background"></div>
+        <div class="content"> 
             <div class="header_firstpage">
                 <div class="pull-left">
                     <ul class="nav navbar-nav navbar-right">
@@ -60,20 +60,21 @@
             <script type="text/javascript">
             var controller = new ScrollMagic.Controller({
                 globalSceneOptions: {
-                    triggerHook: "onEnter",
+                    triggerHook: "onLeave",
                     duration: "100%"
                 }
             });
-
-
             new ScrollMagic.Scene({
-                    triggerElement: ".home-pageset"
+                    triggerElement: ".mainheader"
                 })
-                .setTween(".firstpage_one", {
-                    y: "-100%"
+                .setTween(".firstpage_background", {
+                    y: "-70%"
                 })
                 .addIndicators()
                 .addTo(controller);
+            
+
+
             </script>
         </div>
     </div>
@@ -422,7 +423,6 @@
     </div>
     <!-- seventh page -->
     <div class="row seventhpage_row seventh_box">
-        <div class="firstpage_background"></div>
         <div class="content">
             <div class="container-fluid mainheader seventhpage_main">
                 <div class="firstpage col-md-12 col-sm-12 col-xs-12">
