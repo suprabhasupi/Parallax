@@ -331,6 +331,9 @@ div#id_fourthrow {
 	/*margin-top: 1em;*/
 }
 
+.g_effect_r1, .g_effect_r2, .g_effect_r3{
+	opacity: 0;
+}
 
 /*Sixth page*/
 
