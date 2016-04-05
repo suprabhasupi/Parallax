@@ -228,12 +228,12 @@ li{
     top: 0px;}
 .taklu_man {
     position: relative;
-    left: -50%;
+    left: -45%;
 }
 .taklu_para{
 	letter-spacing: 3px;
-    position: relative;
-    left: 50%;
+	position: relative;
+	left: 55%;
 }    
 
 
